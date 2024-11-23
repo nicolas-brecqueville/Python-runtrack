@@ -4,7 +4,7 @@ def tri(listeATrier):
         for i in range(len(listeATrier) - nb):
             if i+1 >= len(listeATrier) - nb:
                 break
-            if int(listeATrier[i]) > int(listeATrier[i+1]):
+            elif int(listeATrier[i]) > int(listeATrier[i+1]):
                 valeurPremierCaractere = listeATrier[i]
                 listeATrier[i] = listeATrier[i+1]
                 listeATrier[i+1] = valeurPremierCaractere
